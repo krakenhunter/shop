@@ -203,8 +203,8 @@ section {
 
 #li1 {
   position: absolute;
-  top: 150px;
-  right: 75%;
+  top: 270px;
+  left: 10%;
   padding: 10px 30px 10px 30px;
   background: url("../img/surf.png") top center;
   background-size: cover;
@@ -212,7 +212,7 @@ section {
 
 #li2 {
   position: absolute;
-  top: 220px;
+  top: 140px;
   right: 42%;
   padding: 10px 30px 10px 30px;
   background: url("../img/surf.png") top center;
@@ -222,8 +222,8 @@ section {
 
 #li3 {
   position: absolute;
-  top: 80px;
-  left: 75%;
+  top: 320px;
+  right: 10%;
   padding: 10px 30px 10px 30px;
   background: url("../img/surf.png") top center;
   background-size: cover;
@@ -546,7 +546,7 @@ section {
     100% {background-position: 0% 50%;}
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1400px) {
   #portada h1 {
     font-size: 130px;
   }
@@ -566,7 +566,7 @@ section {
     padding-top: 50px;
   }
   #portada h1 {
-    font-size: 80px;
+    font-size: 75px;
   }
 }
 
