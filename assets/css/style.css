@@ -174,6 +174,7 @@ section {
 }
 
 #header .logo {
+  top: 0px !important;
   font-size: 28px;
   margin: 0 0 0 150px;
   padding: 0;
@@ -203,8 +204,8 @@ section {
 
 #li1 {
   position: absolute;
-  top: 270px;
-  left: 10%;
+  top: 200px;
+  left: 8%;
   padding: 10px 30px 10px 30px;
   background: url("../img/surf.png") top center;
   background-size: cover;
@@ -222,8 +223,8 @@ section {
 
 #li3 {
   position: absolute;
-  top: 320px;
-  right: 10%;
+  top: 180px;
+  right: 8%;
   padding: 10px 30px 10px 30px;
   background: url("../img/surf.png") top center;
   background-size: cover;
