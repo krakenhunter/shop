@@ -21,29 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
-@font-face {
-  font-family: 'cagatintas';
-  src: local('../fonts/cagatintas'),
-       local('../fonts/cagatintas Regular'),
-       local('../fonts/cagatintas-Regular'),
-       url(../fonts/cagatintas.woff) format("woff");
-}
 
-@font-face {
-  font-family: 'cuerda';
-  src: local('../fonts/cuerda'),
-       local('../fonts/cuerda Regular'),
-       local('../fonts/cuerda-Regular'),
-       url(../fonts/cuerda.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'wet';
-  src: local('../fonts/wet'),
-       local('../fonts/wet Regular'),
-       local('../fonts/wet-Regular'),
-       url(../fonts/wet.woff) format("woff");
-}
 
 
 /*--------------------------------------------------------------
@@ -108,8 +86,7 @@ section {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: url("../img/portada.jpeg") top center;
-  background-size: cover;
+  background: url("../img/aguam.jpg") top center;
 }
 
 #imgpreloader{
@@ -554,6 +531,18 @@ color: #000;
   }
 }
 
+@media (max-width: 1400px) {
+  #li1 { 
+   display: none;
+  }
+  #li2 { 
+   display: none;
+  }
+  #li3 { 
+   display: none;
+  }
+}
+
 @media (max-width: 1200px) {
   #portada .container {
     padding-top: 0px;
@@ -566,15 +555,22 @@ color: #000;
 @media (max-width: 992px) {
   #portada .container {
     padding-top: 50px;
+    top: -200px;
   }
   #portada h1 {
-    font-size: 75px;
+    font-size: 85px;
+  }
+  #header {
+      display: block;
+      top: 0px;
+      background: transparent;
+      border: 0px;
   }
 }
 
 @media (max-width: 768px) {
   #portada h1 {
-    font-size: 55px;
+    font-size: 70px;
   }
 }
 
@@ -588,3 +584,26 @@ color: #000;
   }
 }
 
+@font-face {
+  font-family: 'cagatintas';
+  src: local('../fonts/cagatintas'),
+       local('../fonts/cagatintas Regular'),
+       local('../fonts/cagatintas-Regular'),
+       url(../fonts/cagatintas.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'cuerda';
+  src: local('../fonts/cuerda'),
+       local('../fonts/cuerda Regular'),
+       local('../fonts/cuerda-Regular'),
+       url(../fonts/cuerda.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'wet';
+  src: local('../fonts/wet'),
+       local('../fonts/wet Regular'),
+       local('../fonts/wet-Regular'),
+       url(../fonts/wet.woff) format("woff");
+}
