@@ -191,28 +191,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132e33', end
 
 
 
-/*--------------------------------------------------------------
-# My Portfolio
-
-
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
-  position: absolute;
-  right: 40px;
-  font-size: 24px;
-  top: calc(50% - 18px);
-  color: #fff;
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #ffc041;
-}
-
-.portfolio .portfolio-item .portfolio-info .details-link {
-  right: 10px;
-}
-
---------------------------------------------------------------*/
 .vbox-title {
     width: 100%;
     height: auto;
@@ -320,6 +298,7 @@ font-size: 13px;
   color: #444444;
   transition: all 0.3s ease-in-out;
   border: 2px solid #bfd6cc2b;
+  border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -346,3 +325,4 @@ animation: BorderPride 4s ease infinite , ColorPride 4s ease infinite;
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
 }
+
